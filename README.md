@@ -51,7 +51,7 @@ The full data set is 46.7GB and decompresses to a size of 454GB.
 You can download a subset of the data set and run through it.
 Place this data set in a the root directory of the downloaded program, in a folder called `Primes`.
 Alternatively you can specify the primes path. See program arguments.
-At the end of every file the program will save a `save.txt` file which saves it's progress meaning it can pick up where it left off seamlessly.
+At the end of every file the program will save a `State.txt` file which saves it's progress, meaning it can pick up where it left off seamlessly.
 
 
 #### Program arguments
