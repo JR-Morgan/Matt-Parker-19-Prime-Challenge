@@ -1,10 +1,10 @@
 ## Matt Parker 19 Prime Challenge
-This is my code and solutions to the Matt Parker's Maths Puzzle : [The 19 Challenge](https://www.youtube.com/watch?v=tBXGIXEV7tI)
+This is my code and solutions to the Matt Parker's Maths Puzzle : [The 19 Challenge](https://www.think-maths.co.uk/19challenge)
 
 Let *P* be a set of all prime numbers
 
-Find all values of *n ∈ ℤ* such that: 
-<img src="https://user-images.githubusercontent.com/45512892/100526701-5a66c380-31c3-11eb-8753-b7bbc05ca090.png" height="50" />
+Find values of *n ∈ ℤ* such that: 
+<img src="https://user-images.githubusercontent.com/45512892/100528301-52af1b00-31d3-11eb-8239-6a544f3d77c9.png" height="50" />
 is a multiple of *n*.
 
 In other words, take the first *n* primes. square them, then sum them, and if that value is a multiple  of *n*. Then *n* is a valid solution.
