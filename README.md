@@ -20,7 +20,7 @@ Searching the internet, there were many data sets for the first 50,000,000 or so
 I then found this list of primes http://www.primos.mat.br/indexen.html
 
 It seemed that they had exactly what I was after, 454GB(uncompressed) of primes, 38 billion in total. I cannot over-express the joy I felt when I discovered this.
-So after modifying my code to read these text files and implement a serialisation (saving) function so that I could stop and start my program, I crunched through the first 2 Billion primes (1/3 of the total data set). The first 9 solutions are all reasonably close together and even my previous program could find them basically instantly. However the next 2 solutions would take about 30 mins to find. 
+So after modifying my code to read these text files and implement a serialisation (saving) function so that I could stop and start my program, I crunched through the first 2 Billion primes (only a fraction the total data set). The first 9 solutions are all reasonably close together and even my previous program could find them basically instantly. However the next 2 solutions would take about 30 mins to find. 
 
 The whole prime data set of 38 billion primes took in total 4 hours to run through. And note that I didn't find any more solutions than I did running through the first 2 billion.
 
