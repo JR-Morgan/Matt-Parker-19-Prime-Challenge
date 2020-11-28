@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPPrime", "MPPrime\MPPrime.csproj", "{EA731A9E-1179-45F6-9322-64523DE1CC0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA731A9E-1179-45F6-9322-64523DE1CC0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA731A9E-1179-45F6-9322-64523DE1CC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA731A9E-1179-45F6-9322-64523DE1CC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA731A9E-1179-45F6-9322-64523DE1CC0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AF9860A-011C-446C-AEEC-3F9D1C574778}
+	EndGlobalSection
+EndGlobal
