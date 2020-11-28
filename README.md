@@ -1,5 +1,5 @@
 ## Matt Parker 19 Prime Challenge
-This is my code and solutions to the Matt Parker's Maths Puzzle : The 19 Challenge - https://www.youtube.com/watch?v=tBXGIXEV7tI
+This is my code and solutions to the Matt Parker's Maths Puzzle : [The 19 Challenge](https://www.youtube.com/watch?v=tBXGIXEV7tI)
 
 Let *P* be a set of all prime numbers
 
