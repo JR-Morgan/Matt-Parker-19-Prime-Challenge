@@ -13,7 +13,7 @@ I wanted to find the largest value of n where this property is true.
 ## My approach
 
 My initial approach was to generate primes using a variation of the Sieve of Eratosthenes, and then square and sum them. This approach quickly allowed me to compute the first 9 solutions, including n= 1 and n=19.
-I ran into some interesting problems implementing this. Since the sum was such a large number, I ran out of bits! Even with a 64bit signed integer or a "long", I was quickly getting integer overflows. So I upgraded to a 128 Integer (and then later to a 256bit) Integer. This allowed me to store the much larger numbers that are required by this challenge.
+I ran into some interesting problems implementing this. Since the sum was such a large number, I ran out of bits! Even with a 64bit signed integer or a "long", I was quickly getting integer overflows. So I upgraded to a 128 Integer (and then later to a 256bit) Integer using the [BigMath](https://www.nuget.org/packages/BigMath/) package. This allowed me to store the much larger numbers that are required by this challenge.
 
 However, generating primes this way was incredibly slow, so my options were to either optimise the way I was generating primes, or find a list of primes online. After tinkering around with my prime sieve, I reluctantly gave up, and started a search for a list of primes.
 Searching the internet, there were many data sets for the first 50,000,000 or so primes. But I knew that I needed many, many more.
